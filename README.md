@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+1 - Vercel (https://browser-extensions-manager-ui-solution.vercel.app/)
+2 - GitHub (https://github.com/PavAndrei/Browser-extensions-manager-UI-solution)
 
 ## My process
 
@@ -56,6 +56,4 @@ I would like to learn more about making layouts more optimal for the different d
 
 ## Author
 
-1 -
-2 -
-3 -
+1 - https://github.com/PavAndrei/
