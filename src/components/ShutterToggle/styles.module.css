@@ -1,0 +1,39 @@
+.toggle {
+  position: relative;
+  width: 48px;
+  height: 24px;
+  background-color: var(--gray-hover);
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0;
+}
+
+.toggle:focus {
+  outline: 2px solid var(--btn-hover-active);
+  border: 1px solid var(--bg-color);
+}
+
+.active {
+  background-color: var(--btn-hover-active);
+}
+
+.active:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+.thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background-color: hsl(200, 60%, 99%);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.thumbActive {
+  transform: translateX(24px);
+}

@@ -1,0 +1,24 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.message {
+  color: hsl(200, 60%, 99%);
+  font-weight: 500;
+}
+
+@media (max-width: 1120px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

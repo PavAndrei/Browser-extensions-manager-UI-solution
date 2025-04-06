@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/assets/fonts/NotoSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/assets/fonts/NotoSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/assets/fonts/NotoSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+p,
+span,
+button {
+  font-size: 16px;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+body[data-theme="light"] {
+  background: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --bg-color: hsl(200, 60%, 99%);
+  --header-bg: hsl(200, 60%, 99%);
+  --bg-toggler: hsl(0, 0%, 93%);
+  --title-color: hsl(226, 25%, 17%);
+  --gray-hover: hsl(0, 0%, 78%);
+  --header-shadow: 0 0 3px hsl(0, 0%, 78%);
+  --btn-hover-active: hsl(3, 77%, 44%);
+  --main-shadow: 0 0 3px hsl(0, 0%, 78%);
+  --btn-hover: hsl(0, 0%, 93%);
+  --btn-hover-text: hsl(226, 11%, 37%);
+  --btn-bg-hover: hsl(3, 86%, 64%);
+  --text: hsl(226, 11%, 37%);
+}
+
+body[data-theme="dark"] {
+  background: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --header-bg: hsl(226, 25%, 17%);
+  --bg-color: hsl(225, 23%, 24%);
+  --bg-toggler: hsl(225, 23%, 24%);
+  --title-color: hsl(200, 60%, 99%);
+  --gray-hover: hsl(226, 11%, 37%);
+  --header-shadow: none;
+  --btn-hover-active: hsl(3, 86%, 64%);
+  --main-shadow: 0 0 2px hsl(0, 0%, 78%);
+  --btn-hover: hsl(226, 11%, 37%);
+  --btn-hover-text: hsl(200, 60%, 99%);
+  --btn-bg-hover: hsl(3, 77%, 44%);
+  --text: hsl(0, 0%, 78%);
+}

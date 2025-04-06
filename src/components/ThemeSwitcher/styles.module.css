@@ -1,0 +1,27 @@
+.switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-toggler);
+  border: 2px solid var(--bg-color);
+  border-radius: 16px;
+
+  width: 50px;
+  height: 50px;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.switcher:hover {
+  background-color: var(--gray-hover);
+}
+
+.switcher:focus {
+  outline: 1px solid hsl(3, 86%, 64%);
+}
+
+.icon {
+  stroke: var(--title-color);
+}

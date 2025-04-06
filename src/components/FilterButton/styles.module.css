@@ -1,0 +1,50 @@
+.button,
+.activeButton {
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 24px;
+
+  transition: all 0.3s ease;
+}
+.button {
+  color: var(--title-color);
+  background-color: var(--bg-color);
+  box-shadow: var(--main-shadow);
+}
+
+.button:focus,
+.activeButton:focus {
+  outline: 2px solid var(--btn-hover-active);
+  border: 1px solid var(--bg-color);
+}
+
+.button.button:focus {
+  background-color: var(--btn-hover);
+}
+
+.activeButton {
+  color: var(--bg-color);
+  box-shadow: none;
+
+  background-color: var(--btn-hover-active);
+  outline: none;
+}
+
+.activeButton:hover {
+  background-color: var(--btn-bg-hover);
+}
+
+.button:hover {
+  background-color: var(--btn-hover);
+  color: var(--btn-hover-text);
+}
+
+@media (max-width: 768px) {
+  .button,
+  .activeButton {
+    font-size: 20px;
+  }
+}
