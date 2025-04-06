@@ -23,22 +23,22 @@ Users should be able to:
 
 ### Links
 
-1 - Vercel (https://browser-extensions-manager-ui-solution.vercel.app/)
-2 - GitHub (https://github.com/PavAndrei/Browser-extensions-manager-UI-solution)
+- Vercel (https://browser-extensions-manager-ui-solution.vercel.app/)
+- GitHub (https://github.com/PavAndrei/Browser-extensions-manager-UI-solution)
 
 ## My process
 
 ### Built with
 
-1 - HTML;
-2 - CSS;
-3 - Flexbox;
-4 - Grid;
-5 - Responsive media queries;
-6 - JavaScript;
-7 - React library;
-8 - React Context API;
-9 - CSS modules.
+- HTML
+- CSS
+- Flexbox
+- Grid
+- Responsive media queries
+- JavaScript
+- React library
+- React Context API
+- CSS modules
 
 ### What I learned
 
@@ -50,9 +50,9 @@ I would like to learn more about making layouts more optimal for the different d
 
 ### Useful resources
 
-1 - (https://react.dev/);
-2 - (https://react.dev/learn/passing-data-deeply-with-context);
-3 - (https://dev.to/).
+- (https://react.dev/)
+- (https://react.dev/learn/passing-data-deeply-with-context)
+- (https://dev.to/)
 
 ## Author
 
