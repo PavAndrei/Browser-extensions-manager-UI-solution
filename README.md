@@ -56,4 +56,4 @@ I would like to learn more about making layouts more optimal for the different d
 
 ## Author
 
-1 - https://github.com/PavAndrei/
+- https://github.com/PavAndrei/
