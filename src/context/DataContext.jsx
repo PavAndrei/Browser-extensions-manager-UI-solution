@@ -58,11 +58,12 @@ export const DataProvider = ({ children }) => {
   }, [filtres, data]);
 
   const changeFiltres = (newFilter) => {
-    setFiltres((prevFiltres) =>
-      prevFiltres.map((filter) => ({
-        ...filter,
-        isActive: filter.id === newFilter ? !filter.isActive : false,
-      }))
+    setFiltres(
+      filtres.map((filter) =>
+        filter.id === newFilter
+          ? { ...filter, isActive: true }
+          : { ...filter, isActive: false }
+      )
     );
   };
 
