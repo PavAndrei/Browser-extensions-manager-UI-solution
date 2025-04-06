@@ -8,7 +8,7 @@ export const Item = ({ item }) => {
   const { removeItem, toggleActivityItem } = useContext(DataContext);
 
   return (
-    <div className={styles.item}>
+    <li className={styles.item}>
       <div className={styles.content}>
         <img src={item.logo} alt={item.name} className={styles.image} />
         <div className={styles.info}>
@@ -26,6 +26,6 @@ export const Item = ({ item }) => {
           name={item.name}
         />
       </div>
-    </div>
+    </li>
   );
 };
